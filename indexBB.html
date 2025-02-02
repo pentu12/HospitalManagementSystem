@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="stylesheet" href="bb.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to the Blood Bank</h1>
+            <p>Your one-stop solution for blood donation and requests.</p>
+        </div>
+    
+        <div class="form-container">
+            <h2>Donate Blood</h2>
+
+            <form id="donateForm">
+                <input type="text" id="donorName" placeholder="Your Name" required>
+                <input type="email" id="donorEmail" placeholder="Your Email" required>
+                <input type="text" id="donorPhone" placeholder="Your Phone (e.g., 0712345678)" required>
+                <input type="text" id="donorBloodType" placeholder="Blood Type (e.g., O+, A-)" required>
+                <input type="text" id="donorAddress" placeholder="Your Address" required>
+                <button type="submit">Donate Blood</button>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <h2>Request Blood</h2>
+            <form id="requestForm">
+                <input type="text" id="requesterName" placeholder="Your Name" required>
+                <input type="email" id="requesterEmail" placeholder="Your Email" required>
+                <input type="text" id="requesterPhone" placeholder="Your Phone (e.g., 0712345678)" required>
+                <input type="text" id="requesterBloodType" placeholder="Blood Type Needed (e.g., O+, A-)" required>
+                <textarea id="requestDetails" placeholder="Additional Details"></textarea>
+                <button type="submit">Request Blood</button>
+            </form>
+        </div>
+
+        <div id="donations">
+            <h2>Blood Donations</h2>
+            <table id="donationsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Blood Type</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div id="requests">
+            <h2>Blood Requests</h2>
+            <table id="requestsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Blood Type Needed</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="bb.js"></script>
+     <!-- Footer Images Section -->
+     <div class="footer-images">
+        <img src="images/bbmain.gif" alt="Blood Bank Main" />
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Blood Bank System. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

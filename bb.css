@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/bb1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+.header {
+    text-align: center;
+    padding: 80px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1); /* Dark overlay for better text visibility */
+}
+
+.header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: black;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50; /* Subtle green */
+}
+
+.form-container {
+    background-color: beige;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px hwb(0 53% 5% / 0.102);
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: #4d4a4a;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #3E8E41;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: beige;
+    color: black;
+}
+.footer-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.1);
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.footer-images img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+  /* Footer Section */
+  footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
